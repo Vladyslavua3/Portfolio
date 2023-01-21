@@ -1,0 +1,20 @@
+.block {
+    height: 50vh;
+    background-color: #71839d;
+    width: 100%;
+    display: flex;
+}
+
+.form{
+    height: 30vh;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.textArea{
+    width: 350px;
+    height: 150px;
+}

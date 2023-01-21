@@ -1,0 +1,9 @@
+.block{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}

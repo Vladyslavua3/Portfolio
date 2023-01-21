@@ -1,0 +1,25 @@
+.block{
+    height: 100vh;
+    border: 1px solid red;
+    background-color: blueviolet;
+}
+
+.projectContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.title {
+    background-color: forestgreen;
+}
+
+
+.project {
+    border: 1px solid red;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
