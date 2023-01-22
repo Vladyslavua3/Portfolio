@@ -12,7 +12,7 @@ export const Skill = (props:SkillProps) => {
         <div className={s.skill}>
             <div className={s.icon}></div>
             <h3>{props.title}</h3>
-            <span className={s.description}>{props.article}</span>
+            <p className={s.description}>{props.article}</p>
         </div>
     );
 };

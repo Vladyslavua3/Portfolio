@@ -1,20 +1,28 @@
 .block {
-    height: 50vh;
+    min-height: 50vh;
     background-color: #71839d;
     width: 100%;
     display: flex;
 }
 
-.form{
+.form {
     height: 30vh;
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     padding-top: 50px;
+    gap: 10px;
 }
-.textArea{
+
+.textArea {
     width: 350px;
     height: 150px;
+}
+
+@media screen and (max-width: 550px) {
+    .textArea {
+        width: 100px;
+    }
 }
