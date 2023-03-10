@@ -6,12 +6,12 @@ export const ContactForm = () => {
     return (
         <div className={styleContainer.container}>
             <div className={s.block}>
-                <div className={s.form}>
+                <form className={s.form}>
                 <input type={'text'} placeholder={'write down'}/>
                 <input type={'text'} placeholder={'write down'}/>
-                <textarea placeholder={'The same instructions'} className={s.textArea}></textarea>
-                    <button>Send</button>
-                </div>
+                <textarea placeholder={'The same instructions'} className={s.textArea}/>
+                    <button type={'submit'}>Send</button>
+                </form>
             </div>
         </div>
     );
